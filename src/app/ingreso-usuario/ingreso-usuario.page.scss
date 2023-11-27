@@ -1,0 +1,32 @@
+ion-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+    
+  }
+  
+  ion-item {
+    max-width: 300px; 
+    width: 90%; 
+    margin-bottom: 20px; 
+    
+  }
+  
+  ion-input {
+    
+    --ion-label-floating: {
+      font-size: 16px; 
+      
+    };
+  }
+  
+  /* Media query para hacer el formulario responsive */
+  @media (max-width: 480px) {
+    ion-item {
+      max-width: 90%; 
+    }
+  }
+
+

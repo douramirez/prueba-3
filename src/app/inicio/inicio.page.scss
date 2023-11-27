@@ -1,0 +1,102 @@
+
+background-image {
+  background: url(/Prueba1/Fondo.jpg);
+  background-image: url(/Prueba1/src/app/img/Fondo.jpg);
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenido */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+ 
+}
+
+
+
+
+
+ion-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+    
+  }
+  
+  ion-item {
+    max-width: 300px; 
+    width: 100%; 
+    margin-bottom: 20px; 
+    
+  }
+  ion-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 400px; 
+    margin: 0 auto; 
+    color: black;
+  
+    ion-card-header {
+      ion-card-title, ion-card-subtitle {
+        font-size: 14px; 
+        margin: 0; 
+        color: rgb(179, 176, 176);
+      }
+    }
+  
+    ion-card-content {
+      img {
+        max-width: 100%; 
+        height: auto;
+      }
+    }
+  }
+  
+  
+  
+  
+  
+  
+    
+  ion-input {
+    
+    --ion-label-floating: {
+      font-size: 16px; 
+      
+    };
+  }
+  
+  /* Media query para hacer el formulario responsive */
+  @media (max-width: 480px) {
+    ion-item {
+      max-width: 90%; 
+    }
+  }
+  
+  #welcome.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: ghostwhite;
+
+  
+}
+
+ion-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  image-rendering: auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  color: ghostwhite;
+  
+
+}
+titulo{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
